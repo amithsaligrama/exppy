@@ -2,9 +2,9 @@ import turtle
 x = 0
 screen = turtle.Screen()
 screen.bgcolor("black")
-white = turtle.Turtle()
-white.shape("turtle")
-white.color("black")
+quokka = turtle.Turtle()
+quokka.shape("turtle")
+quokka.color("black")
 penguin = turtle.Turtle()
 penguin.shape("turtle")
 penguin.color("black")
@@ -17,11 +17,11 @@ dog.color("black")
 cat = turtle.Turtle()
 cat.shape("turtle")
 cat.color("black")
-henry = turtle.Turtle()
-henry.shape("turtle")
-henry.color("black")
-white.forward(300)
-henry.backward(300)
+dingo = turtle.Turtle()
+dingo.shape("turtle")
+dingo.color("black")
+quokka.forward(300)
+dingo.backward(300)
 penguin.forward(600)
 hen.backward(600)
 dog.left(90)
@@ -29,47 +29,47 @@ dog.forward(300)
 cat.right(90)
 cat.forward(300)
 while 0==0:
-    henry.right(128)
-    henry.forward(100)
+    dingo.right(128)
+    dingo.forward(100)
     x += 1
     if x % 9 == 2:
-        henry.color("green")
+        dingo.color("green")
     elif x % 9 == 3:
-        henry.color("blue")
+        dingo.color("blue")
     elif x % 9 == 4:
-        henry.color("brown")
+        dingo.color("brown")
     elif x % 9 == 5:
-        henry.color("yellow")
+        dingo.color("yellow")
     elif x % 9 == 0:
-        henry.color("pink")
+        dingo.color("pink")
     elif x % 9 == 1:
-        henry.color("white")
+        dingo.color("white")
     elif x % 9 == 7:
-        henry.color("orange")
+        dingo.color("orange")
     elif x % 9 == 6:
-        henry.color("cyan")
+        dingo.color("cyan")
     else:
-        henry.color("red")
-    white.left(64)
-    white.forward(100)
+        dingo.color("red")
+    quokka.left(64)
+    quokka.forward(100)
     if x % 9 == 1:
-        white.color("green")
+        quokka.color("green")
     elif x % 9 == 2:
-        white.color("blue")
+        quokka.color("blue")
     elif x % 9 == 3:
-        white.color("brown")
+        quokka.color("brown")
     elif x % 9 == 4:
-        white.color("yellow")
+        quokka.color("yellow")
     elif x % 9 == 5:
-        white.color("pink")
+        quokka.color("pink")
     elif x % 9 == 6:
-        white.color("white")
+        quokka.color("white")
     elif x % 9 == 7:
-        white.color("orange")
+        quokka.color("orange")
     elif x % 9 == 0:
-        white.color("cyan")
+        quokka.color("cyan")
     else:
-        white.color("red")
+        quokka.color("red")
     penguin.left(75)
     penguin.forward(100)
     if x % 9 == 2:
