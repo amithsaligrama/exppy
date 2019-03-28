@@ -29,4 +29,4 @@ Adding on to anybasetodecimal, this program converts a number of your choice in 
 just playing with some turtles.
 
 ## GCFof2
-Finding the GCF of 2 integers using the Euclidean Algorithm.
+Finding the GCF of 2 integers using the Euclidean Algorithm. Same as java GCFofTwo.
