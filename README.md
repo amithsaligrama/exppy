@@ -27,3 +27,6 @@ Adding on to anybasetodecimal, this program converts a number of your choice in 
 
 ## turtles
 just playing with some turtles.
+
+## GCFof2
+Finding the GCF of 2 integers using the Euclidean Algorithm.
