@@ -6,7 +6,7 @@ def gcf(a,b):
             a = a % b
         else:
             b = b % a
-print ("This is a GCF calculator. This only works for 2 integers")
-a = int(input("Enter the first number. "))
+print ("\nThis is a GCF calculator. This only works for 2 integers")
+a = int(input("\nEnter the first number. "))
 b = int(input("Enter the second number. "))
-print ("The GCF is " + str(gcf(a,b)) + ".")
+print ("\nThe GCF is " + str(gcf(a,b)) + ".")
