@@ -33,18 +33,9 @@ Finding the GCF of 2 integers using the Euclidean Algorithm. Same as java GCFofT
 
 ## TicTacToe
 Let's play TicTacToe! When you want to place the X's and the O's, type the position in words. The possible positions are:
+
 "top-left", "top-center", "top-right",
 "center-left", "center", "center-right", 
 "bottom-left", "bottom-center", and "bottom-right".
-It is important to note that "center" and "middle" can be used interchangably and you can use a space instead of the hyphen or compound the two words without any separator in between. The board looks like this:
-   |   |   
- O | X | X 
-   |   |   
----+---+---
-   |   |   
- X | O | O 
-   |   |   
----+---+---
-   |   |   
- O | X | X 
-   |   |   
+
+It is important to note that "center" and "middle" can be used interchangably and you can use a space instead of the hyphen or compound the two words without any separator in between.
