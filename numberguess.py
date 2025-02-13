@@ -2,7 +2,7 @@ from random import *
 guesses = 1
 interval_min = int(raw_input("\nWhat is the minimum integer that you want in your interval? "))
 interval_max = int(raw_input("What is the maximum integer that you want in your interval? "))
-while interval_mind or interval_max:
+while interval_min or interval_max:
   print "\nThe minimum cannot be greater than the maximum.\n"
   interval_min = int(raw_input("\nWhat is the minimum integer that you want in your interval? "))
   interval_max = int(raw_input("What is the maximum integer that you want in your interval? "))
